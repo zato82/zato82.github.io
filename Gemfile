@@ -9,5 +9,4 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.8'
 end
 
-gem 'base64'
 gem 'github-pages'
