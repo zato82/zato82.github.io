@@ -1,3 +1,4 @@
+#New
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -9,31 +10,31 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "dark"
-title                    : "Sina Sajadmanesh"
+title                    : "Emiliano De Cristofaro"
 title_separator          : "-"
-name                     : &name "Sina Sajadmanesh"
-description              : &description "AI Engineer at Sony AI"
-url                      : //sajadmanesh.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Emiliano De Cristofaro"
+description              : &description "Professor at UC Riverside"
+url                      : #//emilianodc.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sisaman/sisaman.github.io"
+repository               : "emidec/emidec.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Sina Sajadmanesh"
+  avatar           : "photo.jpeg"
+  name             : "Emiliano De Cristofaro"
   pronouns         : # example: "she/her"  
-  bio              : "AI Engineer at <a href='https://ai.sony'>Sony AI</a>"
-  location         : "Switzerland"
-  employer         : "Sony AI"
+  bio              : "Professor at <a href='https://www.cs.ucr.edu'>UC Riverside</a>"
+  location         : "California, USA"
+  employer         : "UC Riverside"
   uri              : # URL
-  email            : "sina.sajadmanesh@gmail.com"
+  email            : "me@emilianodc.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=Gtw3NoAAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=1wfzUuEAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
@@ -45,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "sisaman"
+  github           : "emidec"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -59,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : sajadmanesh
+  linkedin         : emilianodc
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,6 +75,8 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  bsky          : "emilianodc.com"
+
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -131,7 +134,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "sajadmanesh"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -149,7 +152,7 @@ social:
 analytics:
   provider               :  "custom" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :  "UA-185328149-1"
+  tracking_id          :  #'UA-146129901-1'
 
 
 # Reading Files
