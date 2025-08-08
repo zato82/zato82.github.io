@@ -159,6 +159,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _includes/head_custom.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
