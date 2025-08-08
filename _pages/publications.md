@@ -14,8 +14,8 @@ title: Publications
 Alessandro Galeazzi, Pujan Paudel, Mauro Conti, Emiliano De Cristofaro, Gianluca Stringhini  
 **Revealing The Secret Power: How Algorithms Can Influence Content Visibility on Twitter/X**  
 33rd Network and Distributed System Security Symposium (NDSS 2026)  
-[pdf](https://arxiv.org/pdf/2410.17390){: .btn--danger}{:target="_blank"}  
-<!--<a href="https://arxiv.org/pdf/2410.17390" target="_blank"><i class="fas fa-file-pdf"></i> pdf</a>-->
+<!--[pdf](https://arxiv.org/pdf/2410.17390){: .btn--danger}{:target="_blank"}  -->
+<a href="https://arxiv.org/pdf/2410.17390" target="_blank"><i class="fas fa-file-pdf"></i>Paper</a>
 
 Georgi Ganev, Meenatchi Sundaram Muthu Selva Annamalai, Sofiane Mahiou, Emiliano De Cristofaro  
 **The Importance of Being Discrete: Measuring the Impact of Discretization in End-to-End Differentially Private Synthetic Data**  
