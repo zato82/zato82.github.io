@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="robots" content="noindex">
+		<link href="http://fonts.googleapis.com/css?family=Pompiere" rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic" rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic" rel='stylesheet' type='text/css'>
+		<title>Darya &amp; Emiliano</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<script src="rsvpformvalidation.js"></script>
+		<script>
+			required.add('First_Name','NOT_EMPTY','First Name');
+			required.add('Email','EMAIL','Email');
+			required.add('will_you_attend[]','RADIO_GROUP','Will you attend?');
+			required.add('Number_of_Guests','SELECT','Number of Guests');
+		</script>
+		<?php
+		header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+		header('Cache-Control: no-store, no-cache, must-revalidate');
+		header('Cache-Control: post-check=0, pre-check=0', FALSE);
+		header('Pragma: no-cache');
+		?>		
+	</head>
+	<body id="rsvp">
+		<div id="blake">
+		</div>
+		<div id="menu">
+			<ul id="nav">
+				<li id="home-nav"> <a href="../index.html">welcome</a> </li>
+				<li id="reception-nav"> <a href="../reception.html" >reception</a> </li>
+				<li id="travel-nav"> <a href="../travel.html">travel</a> </li>
+				<li id="hotels-nav"> <a href="../hotels.html">hotels</a> </li>
+           		<li id="registry-nav"> <a href="../wish-list.html">wish list</a> </li>
+		         <li id="rsvp-nav"> <a href="./index.html">rsvp</a> </li>
+           		<li id="contact-nav"> <a href="../contacts.html">contacts</a> </li>
+			</ul>
+		</div>
+		<div id="titolo">
+			<h1>Darya &amp; Emiliano</h1>
+			<h2>30.8.2014</h2>
+		</div>
+		
+		<div id="main">
+			<br>
+			<div class="rsvp">
+			<h1>RSVP</h1>
+				<form accept-charset="utf-8" name="rsvpform" method="post" action="rsvpformprocess.php" onsubmit="return validate.check(this)">
+					<table border="0">
+						<tr>
+							<td valign="top">
+								<label for="First_Name" class="required">Your name</label>
+							</td>
+							<td valign="top">
+								<input class="rsvp_text" type="text" name="First_Name" id="First_Name" maxlength="50" value="" />
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label for="Email" class="required">Your email</label>
+							</td>
+							<td valign="top">
+								<input class="rsvp_text" type="text" name="Email" id="Email" maxlength="50" value="" />
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label for="will_you_attend" class="required">Will you attend?</label>
+							</td>
+							<td valign="top">
+								<input type="radio" name="will_you_attend[]" value="Yes" />&nbsp; Yes &nbsp;&nbsp;
+								<input type="radio" name="will_you_attend[]" value="No" />&nbsp; No<br />
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label for="Number_of_Guests">Number of guests<br><i>(including you)</i></label>
+							</td>
+							<td valign="center">
+								<select id="Number_of_Guests" name="Number_of_Guests">
+									<option value="0">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label for="Further_Details">Comments<br><i>(please indicate if<br>you have any<br> dietary restrictions)</i></label>
+							</td>
+							<td valign="top">
+								<textarea class="rsvp_textarea" name="Further_Details" id="Further_Details" maxlength="1000"/></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+								<br />
+								<input type="submit" value="Submit RSVP" id="form_submit_button" class="rsvp_button" />
+								<br /><br /><br><br><br>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<br>
+		</div>
+		
+		<div id="footer">
+			<p>
+    <script language="javascript">
+        months = ['January', 'Febraury', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        var theDate = new Date(document.lastModified);
+        theDate.setTime((theDate.getTime()) )
+        with (theDate) {
+            document.write("Last updated: "+getDate()+' '+months[getMonth()]+' '+getFullYear() + " &mdash; <a href=mailto:mail@darya-emiliano.it>mail@darya-emiliano.it</a>")
+        }
+    </script>
+			</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: index.html
+Disallow: reception.html
+Disallow: hotels.html
+Disallow: travel.html
+Disallow: viva.html
+Disallow: radici.html
+Disallow: darya-emiliano.it/
+Disallow: /

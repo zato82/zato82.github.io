@@ -1,0 +1,360 @@
+body
+{
+	-webkit-font-smoothing:subpixel-antialiased;
+	background:#FFF;
+	background-size:cover;
+	margin:0;
+}
+
+#blake
+{
+	background:#333;
+	height:28px;
+	position:fixed;
+	width:100%;
+}
+
+#menu
+{
+	height:28px;
+	margin:0 auto;
+	text-align:left;
+	width:825px;
+}
+
+#menu ul
+{
+	font-family:Cabin, "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size:.78em;
+	height:auto;
+	list-style-type:none;
+	margin:0;
+	padding:5px 0;
+	position:fixed;
+}
+
+#menu li
+{
+	display:inline;
+	padding:8px;
+}
+
+#menu a
+{
+	background-color:#333;
+	color:#FFF;
+	font-weight:500;
+	padding:6px 7px;
+	text-decoration:none;
+}
+
+#menu a:hover
+{
+	background-color:#eee;
+	color:#233F8C;
+}
+
+#titolo
+{
+	color:#000;
+	margin-bottom:35px;
+	margin-top:45px;
+	text-align:center;
+	width:100%;
+}
+
+#titolo h1
+{
+	font-family:"Crimson Text", serif;
+	font-size:50px;
+	font-style:italic;
+	font-weight:600;
+	letter-spacing:-1.2px;
+	margin:-6pt 0 0;
+}
+
+#titolo h2
+{
+	color:#333;
+	font-family:"Crimson Text";
+	font-size:15pt;
+	font-weight:400;
+	letter-spacing:-.5px;
+	margin:0;
+}
+
+#hotels #hotels-nav a,#reception #reception-nav a,#travel #travel-nav a,#travel #travel-nav a,#registry #registry-nav a,#rsvp #rsvp-nav a, #contact #contact-nav
+{
+	background-color:#333;
+	color:#C0CBEB;
+}
+
+#main
+{
+	background-color:#fff;
+	color:#000;
+	font-family:Cabin, "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size:12pt;
+	line-height:22px;
+	margin:30px auto auto;
+	padding:1pt 50pt 10pt;
+	width:800px;
+}
+
+#hmm
+{
+	background-color:#fff;
+	color:#000;
+	font-family:Pompiere, sans-serif;
+	line-height:22px;
+	margin:30px auto auto;
+	padding:1pt 50pt 10pt;
+	width:650px;
+}
+
+#main p
+{
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:justify;
+}
+
+
+#hmm p
+{
+	font-size:25px;
+	font-weight:400;
+	line-height:38px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#hmm p.farsi
+{
+	font-size:22px;
+	font-weight:100;
+	line-height:38px;
+	margin-bottom:45px;
+	margin-top:45px;
+	text-align:center;
+}
+
+#main b
+{
+	font-family:Cabin;
+	font-size:12pt;
+	font-weight:700;
+	line-height:22px;
+}
+
+#main a
+{
+	color:#953F3C;
+	font-weight:700;
+	text-decoration:none;
+}
+
+
+#main a:hover
+{
+	color:#953F3C;
+	font-weight:700;
+	text-decoration:underline;
+}
+
+#main a.anchor
+{
+	color:#000;
+	display:block;
+	font-weight:700;
+	position:relative;
+	text-decoration:none;
+	top:-30px;
+	visibility:hidden;
+}
+
+#main h1
+{
+	font-family:Cabin;
+	font-size:19pt;
+	font-weight:700;
+	margin-bottom:25px;
+	margin-top:10px;
+	text-align:justify;
+}
+
+#main h2
+{
+	font-family:Cabin;
+	font-size:14pt;
+	font-weight:700;
+	margin-bottom:2px;
+	margin-top:0;
+	text-align:justify;
+}
+
+#main h3
+{
+	font-family:Cabin;
+	font-size:13pt;
+	font-weight:700;
+	margin-bottom:-10px;
+	padding-top:10px;
+	text-align:justify;
+}
+
+#thankyou
+{
+	color:#000;
+	margin-bottom:35px;
+	margin-top:45px;
+	text-align:center;
+	width:100%;
+}
+
+#thankyou h1
+{
+	font-size:60px;
+	font-weight:600;
+	margin:-6pt 0 0;
+	font-family:Cabin;
+}
+
+
+#main ul
+{
+	padding-bottom:10px;
+}
+
+#main ul li
+{
+	padding:0px 0px 8px;
+}
+
+#main ol
+{
+	margin-top:-10px;
+}
+
+#home img
+{
+	display:block;
+	height:auto;
+	margin:0 auto;
+	width:100%;
+}
+
+img.splash
+{
+	border:1px solid #fff;
+	margin:20px 0 10px;
+}
+
+img
+{
+	display:block;
+	margin:auto;
+}
+
+
+.places
+{
+	display:block;
+	margin:auto;
+	padding: 5px 0px 40px 0;
+}
+
+iframe
+{
+	display:block;
+	margin:0 auto;
+}
+
+#footer
+{
+	background:#FFF;
+	color:#666;
+	font-family:Geneva, "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size:10px;
+	height:20px;
+	margin:50px auto 10px;
+	text-align:center;
+	width:800px;
+}
+
+.box
+{
+	float:left;
+	padding-bottom:50px;
+	width:400px;
+}
+
+#footer a
+{
+	color:#666;
+	text-decoration:none;
+}
+
+#footer a:hover
+{
+	color:#953F3C;
+	text-decoration:underline;
+}
+
+table{
+
+}
+
+table tr td {
+    padding-left: 15px;
+    padding-right: 0px;
+	padding-bottom: 15px;
+	line-height:20px;
+}
+
+table tr td:first-child {
+    padding-left: 2px;
+    padding-right: 0px;
+	padding-bottom: 15px;
+	line-height:20px;
+}
+
+
+.rsvp table {
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+/*table tr td {
+    padding-bottom: 15px;
+	line-height:120%
+	
+}*/
+
+
+.rsvp_text{
+	width:170px;
+	height:18px;
+	border:1px solid #BBB;
+}
+
+
+.rsvp textarea{
+    font-size:14px;
+    font-family: arial, sans-serif;
+}
+
+.rsvp_textarea{
+	width:300px;
+	height:120px;
+	border:1px solid #BBB;
+}
+
+
+#main p.different
+{
+	margin-top:0px;
+	margin-bottom:8px;
+	text-align:justify;
+}

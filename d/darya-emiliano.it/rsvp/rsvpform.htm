@@ -1,0 +1,90 @@
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>RSVP Form</title>
+	<script src="rsvpformvalidation.js"></script>
+	<script>
+	required.add('First_Name','NOT_EMPTY','First Name');
+	required.add('Email','EMAIL','Email');
+	required.add('will_you_attend[]','RADIO_GROUP','Will you attend?');
+	required.add('Number_of_Guests','SELECT','Number of Guests');
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="rsvpform.css">
+	</head>
+	<body>
+<div class="rsvp"><div class="rsvp-default">
+<form accept-charset="utf-8" name="rsvpform" method="post" action="rsvpformprocess.php" onsubmit="return validate.check(this)">
+<table border="0">
+<tr>
+ <td colspan="2">
+  <h2>RSVP Form</h2>
+  <p class="rsvp_comments">Please complete fields marked with (<span class="required_star"> * </span>)</p><br />
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="First_Name" class="required">First Name<span class="required_star"> * </span></label>
+ </td>
+ <td valign="top">
+  <input class="rsvp_text" type="text" name="First_Name" id="First_Name" maxlength="50" value="" />
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="Email" class="required">Email<span class="required_star"> * </span></label>
+ </td>
+ <td valign="top">
+  <input class="rsvp_text" type="text" name="Email" id="Email" maxlength="50" value="" />
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="will_you_attend" class="required">Will you attend?<span class="required_star"> * </span></label></td>
+ <td valign="top">
+    <input type="radio" name="will_you_attend[]" value="Yes" />&nbsp; Yes &nbsp;&nbsp;
+    <input type="radio" name="will_you_attend[]" value="No" />&nbsp; No<br />
+</td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="Number_of_Guests">Number of Guests</label>
+ </td>
+ <td valign="top">
+  <select id="Number_of_Guests" name="Number_of_Guests">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="Further_Details">Further Details</label>
+ </td>
+ <td valign="top">
+  <textarea class="rsvp_textarea" name="Further_Details" id="Further_Details" maxlength="1000" onKeyUp="checkMessageCount()" /></textarea>
+  <br />
+ </td>
+</tr>
+<tr>
+ <td colspan="2" align="center">
+  <br />
+  <input type="text" id="url" name="url" />
+  <input type="submit" value="Submit RSVP" id="form_submit_button" class="rsvp_button" />
+  <br /><br />
+ </td>
+</tr>
+</table>
+</form>
+</div></div>
+
+
+</body>
+</html>

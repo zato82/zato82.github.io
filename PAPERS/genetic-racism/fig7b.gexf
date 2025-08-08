@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2019-07-29">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Educational" label="Educational">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="296.44034" y="170.2699"></viz:position>
+        <viz:color r="0" g="199" b="92"></viz:color>
+      </node>
+      <node id="Alt-RightFar-RightHateSexism" label="Hate">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="467.20834" y="-39.23388"></viz:position>
+        <viz:color r="35" g="172" b="255"></viz:color>
+      </node>
+      <node id="AncestryGenealogy" label="Ancestry">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-495.00882" y="-793.25635"></viz:position>
+        <viz:color r="244" g="130" b="255"></viz:color>
+      </node>
+      <node id="Crime" label="Crime">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-232.83011" y="-263.0194"></viz:position>
+        <viz:color r="255" g="94" b="145"></viz:color>
+      </node>
+      <node id="MenWomenSexes" label="Sexes">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-78.70232" y="70.9459"></viz:position>
+        <viz:color r="255" g="129" b="33"></viz:color>
+      </node>
+      <node id="Other" label="Other">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="451.0674" y="364.60687"></viz:position>
+        <viz:color r="0" g="199" b="92"></viz:color>
+      </node>
+      <node id="Drugs" label="Drugs">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-198.56082" y="654.109"></viz:position>
+        <viz:color r="205" g="190" b="167"></viz:color>
+      </node>
+      <node id="Politics" label="Politics">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="599.5928" y="-166.95308"></viz:position>
+        <viz:color r="35" g="172" b="255"></viz:color>
+      </node>
+      <node id="RaceCultureCountries" label="Race/Countries">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="515.5522" y="-355.68057"></viz:position>
+        <viz:color r="35" g="172" b="255"></viz:color>
+      </node>
+      <node id="News" label="News">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="80.11574" y="-272.11795"></viz:position>
+        <viz:color r="255" g="94" b="145"></viz:color>
+      </node>
+      <node id="HealthDiseases" label="Health">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-325.40897" y="385.02808"></viz:position>
+        <viz:color r="205" g="190" b="167"></viz:color>
+      </node>
+      <node id="Religion" label="Religion">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-37.11348" y="251.68208"></viz:position>
+        <viz:color r="0" g="214" b="248"></viz:color>
+      </node>
+      <node id="ScienceTechnologyFuturism" label="Science">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="558.31287" y="512.3219"></viz:position>
+        <viz:color r="0" g="199" b="92"></viz:color>
+      </node>
+      <node id="FunnyComedy" label="Funny">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="121.11896" y="424.30542"></viz:position>
+        <viz:color r="0" g="214" b="248"></viz:color>
+      </node>
+      <node id="Legal" label="Legal">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-472.9751" y="-431.3957"></viz:position>
+        <viz:color r="244" g="130" b="255"></viz:color>
+      </node>
+      <node id="GeneticsGenomics" label="Genetics">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-800.9661" y="-63.10708"></viz:position>
+        <viz:color r="244" g="130" b="255"></viz:color>
+      </node>
+      <node id="Animals" label="Animals">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-593.5556" y="463.97147"></viz:position>
+        <viz:color r="205" g="190" b="167"></viz:color>
+      </node>
+      <node id="4chan" label="4chan's /pol/">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="838.30505" y="99.51427"></viz:position>
+        <viz:color r="35" g="172" b="255"></viz:color>
+      </node>
+      <node id="TVSeriesEntertainment" label="Entertainment">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-76.06891" y="-584.37054"></viz:position>
+        <viz:color r="244" g="130" b="255"></viz:color>
+      </node>
+      <node id="ChildrenPregnancy" label="Children">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="indegree" value="19"></attvalue>
+          <attvalue for="outdegree" value="19"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-294.67563" y="-9.57231"></viz:position>
+        <viz:color r="255" g="129" b="33"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Educational" target="Alt-RightFar-RightHateSexism" weight="0.2622222304344177"></edge>
+      <edge id="1" source="Educational" target="AncestryGenealogy" weight="0.04624277353286743"></edge>
+      <edge id="2" source="Educational" target="Crime" weight="0.14406779408454895"></edge>
+      <edge id="3" source="Educational" target="MenWomenSexes" weight="0.24444444477558136"></edge>
+      <edge id="4" source="Educational" target="Other" weight="0.3497537076473236"></edge>
+      <edge id="5" source="Educational" target="Drugs" weight="0.0784313753247261"></edge>
+      <edge id="6" source="Educational" target="Politics" weight="0.23045267164707184"></edge>
+      <edge id="7" source="Educational" target="RaceCultureCountries" weight="0.24255318939685822"></edge>
+      <edge id="8" source="Educational" target="News" weight="0.30084747076034546"></edge>
+      <edge id="9" source="Educational" target="HealthDiseases" weight="0.12844036519527435"></edge>
+      <edge id="10" source="Educational" target="Religion" weight="0.20000000298023224"></edge>
+      <edge id="11" source="Educational" target="ScienceTechnologyFuturism" weight="0.31018519401550293"></edge>
+      <edge id="12" source="Educational" target="FunnyComedy" weight="0.18396227061748505"></edge>
+      <edge id="13" source="Educational" target="Legal" weight="0.10679611563682556"></edge>
+      <edge id="14" source="Educational" target="GeneticsGenomics" weight="0.03861003741621971"></edge>
+      <edge id="15" source="Educational" target="Animals" weight="0.0714285746216774"></edge>
+      <edge id="16" source="Educational" target="4chan" weight="0.20762711763381958"></edge>
+      <edge id="17" source="Educational" target="TVSeriesEntertainment" weight="0.12264151126146317"></edge>
+      <edge id="18" source="Educational" target="ChildrenPregnancy" weight="0.16740088164806366"></edge>
+      <edge id="19" source="Alt-RightFar-RightHateSexism" target="Educational" weight="0.2622222304344177"></edge>
+      <edge id="20" source="Alt-RightFar-RightHateSexism" target="AncestryGenealogy" weight="0.037634409964084625"></edge>
+      <edge id="21" source="Alt-RightFar-RightHateSexism" target="Crime" weight="0.10588235408067703"></edge>
+      <edge id="22" source="Alt-RightFar-RightHateSexism" target="MenWomenSexes" weight="0.17741934955120087"></edge>
+      <edge id="23" source="Alt-RightFar-RightHateSexism" target="Other" weight="0.22746780514717102"></edge>
+      <edge id="24" source="Alt-RightFar-RightHateSexism" target="Drugs" weight="0.05904059112071991"></edge>
+      <edge id="25" source="Alt-RightFar-RightHateSexism" target="Politics" weight="0.3700440526008606"></edge>
+      <edge id="26" source="Alt-RightFar-RightHateSexism" target="RaceCultureCountries" weight="0.29914531111717224"></edge>
+      <edge id="27" source="Alt-RightFar-RightHateSexism" target="News" weight="0.25590550899505615"></edge>
+      <edge id="28" source="Alt-RightFar-RightHateSexism" target="HealthDiseases" weight="0.10256410390138626"></edge>
+      <edge id="29" source="Alt-RightFar-RightHateSexism" target="Religion" weight="0.14049586653709412"></edge>
+      <edge id="30" source="Alt-RightFar-RightHateSexism" target="ScienceTechnologyFuturism" weight="0.175298810005188"></edge>
+      <edge id="31" source="Alt-RightFar-RightHateSexism" target="FunnyComedy" weight="0.11914893984794617"></edge>
+      <edge id="32" source="Alt-RightFar-RightHateSexism" target="Legal" weight="0.07623318582773209"></edge>
+      <edge id="33" source="Alt-RightFar-RightHateSexism" target="GeneticsGenomics" weight="0.05243445560336113"></edge>
+      <edge id="34" source="Alt-RightFar-RightHateSexism" target="Animals" weight="0.0533333346247673"></edge>
+      <edge id="35" source="Alt-RightFar-RightHateSexism" target="4chan" weight="0.3378378450870514"></edge>
+      <edge id="36" source="Alt-RightFar-RightHateSexism" target="TVSeriesEntertainment" weight="0.09649122506380081"></edge>
+      <edge id="37" source="Alt-RightFar-RightHateSexism" target="ChildrenPregnancy" weight="0.1352459043264389"></edge>
+      <edge id="38" source="AncestryGenealogy" target="Educational" weight="0.04624277353286743"></edge>
+      <edge id="39" source="AncestryGenealogy" target="Alt-RightFar-RightHateSexism" weight="0.037634409964084625"></edge>
+      <edge id="40" source="AncestryGenealogy" target="Crime" weight="0.052941177040338516"></edge>
+      <edge id="41" source="AncestryGenealogy" target="MenWomenSexes" weight="0.06779661029577255"></edge>
+      <edge id="42" source="AncestryGenealogy" target="Other" weight="0.05780346691608429"></edge>
+      <edge id="43" source="AncestryGenealogy" target="Drugs" weight="0.03954802080988884"></edge>
+      <edge id="44" source="AncestryGenealogy" target="Politics" weight="0.03999999910593033"></edge>
+      <edge id="45" source="AncestryGenealogy" target="RaceCultureCountries" weight="0.025510204955935478"></edge>
+      <edge id="46" source="AncestryGenealogy" target="News" weight="0.03846153989434242"></edge>
+      <edge id="47" source="AncestryGenealogy" target="HealthDiseases" weight="0.06896551698446274"></edge>
+      <edge id="48" source="AncestryGenealogy" target="Religion" weight="0.0359281450510025"></edge>
+      <edge id="49" source="AncestryGenealogy" target="ScienceTechnologyFuturism" weight="0.010526316240429878"></edge>
+      <edge id="50" source="AncestryGenealogy" target="FunnyComedy" weight="0.03896103799343109"></edge>
+      <edge id="51" source="AncestryGenealogy" target="Legal" weight="0.05384615436196327"></edge>
+      <edge id="52" source="AncestryGenealogy" target="GeneticsGenomics" weight="0.0470588244497776"></edge>
+      <edge id="53" source="AncestryGenealogy" target="Animals" weight="0.022900763899087906"></edge>
+      <edge id="54" source="AncestryGenealogy" target="4chan" weight="0.026455026119947433"></edge>
+      <edge id="55" source="AncestryGenealogy" target="TVSeriesEntertainment" weight="0.08888889104127884"></edge>
+      <edge id="56" source="AncestryGenealogy" target="ChildrenPregnancy" weight="0.06748466193675995"></edge>
+      <edge id="57" source="Crime" target="Educational" weight="0.14406779408454895"></edge>
+      <edge id="58" source="Crime" target="Alt-RightFar-RightHateSexism" weight="0.10588235408067703"></edge>
+      <edge id="59" source="Crime" target="AncestryGenealogy" weight="0.052941177040338516"></edge>
+      <edge id="60" source="Crime" target="MenWomenSexes" weight="0.15833333134651184"></edge>
+      <edge id="61" source="Crime" target="Other" weight="0.14767932891845703"></edge>
+      <edge id="62" source="Crime" target="Drugs" weight="0.0833333358168602"></edge>
+      <edge id="63" source="Crime" target="Politics" weight="0.08394160866737366"></edge>
+      <edge id="64" source="Crime" target="RaceCultureCountries" weight="0.09022556245326996"></edge>
+      <edge id="65" source="Crime" target="News" weight="0.14661654829978943"></edge>
+      <edge id="66" source="Crime" target="HealthDiseases" weight="0.13488371670246124"></edge>
+      <edge id="67" source="Crime" target="Religion" weight="0.14410480856895447"></edge>
+      <edge id="68" source="Crime" target="ScienceTechnologyFuturism" weight="0.12851405143737793"></edge>
+      <edge id="69" source="Crime" target="FunnyComedy" weight="0.12669683992862701"></edge>
+      <edge id="70" source="Crime" target="Legal" weight="0.12437810748815536"></edge>
+      <edge id="71" source="Crime" target="GeneticsGenomics" weight="0.0595238097012043"></edge>
+      <edge id="72" source="Crime" target="Animals" weight="0.09313725680112839"></edge>
+      <edge id="73" source="Crime" target="4chan" weight="0.09266409277915955"></edge>
+      <edge id="74" source="Crime" target="TVSeriesEntertainment" weight="0.1625615805387497"></edge>
+      <edge id="75" source="Crime" target="ChildrenPregnancy" weight="0.18468467891216278"></edge>
+      <edge id="76" source="MenWomenSexes" target="Educational" weight="0.24444444477558136"></edge>
+      <edge id="77" source="MenWomenSexes" target="Alt-RightFar-RightHateSexism" weight="0.17741934955120087"></edge>
+      <edge id="78" source="MenWomenSexes" target="AncestryGenealogy" weight="0.06779661029577255"></edge>
+      <edge id="79" source="MenWomenSexes" target="Crime" weight="0.15833333134651184"></edge>
+      <edge id="80" source="MenWomenSexes" target="Other" weight="0.29357796907424927"></edge>
+      <edge id="81" source="MenWomenSexes" target="Drugs" weight="0.08846154063940048"></edge>
+      <edge id="82" source="MenWomenSexes" target="Politics" weight="0.1498127281665802"></edge>
+      <edge id="83" source="MenWomenSexes" target="RaceCultureCountries" weight="0.15830115973949432"></edge>
+      <edge id="84" source="MenWomenSexes" target="News" weight="0.20229007303714752"></edge>
+      <edge id="85" source="MenWomenSexes" target="HealthDiseases" weight="0.1651376187801361"></edge>
+      <edge id="86" source="MenWomenSexes" target="Religion" weight="0.19298245012760162"></edge>
+      <edge id="87" source="MenWomenSexes" target="ScienceTechnologyFuturism" weight="0.18775510787963867"></edge>
+      <edge id="88" source="MenWomenSexes" target="FunnyComedy" weight="0.2102803736925125"></edge>
+      <edge id="89" source="MenWomenSexes" target="Legal" weight="0.0976744219660759"></edge>
+      <edge id="90" source="MenWomenSexes" target="GeneticsGenomics" weight="0.057251907885074615"></edge>
+      <edge id="91" source="MenWomenSexes" target="Animals" weight="0.08878504484891891"></edge>
+      <edge id="92" source="MenWomenSexes" target="4chan" weight="0.11832061409950256"></edge>
+      <edge id="93" source="MenWomenSexes" target="TVSeriesEntertainment" weight="0.14953270554542542"></edge>
+      <edge id="94" source="MenWomenSexes" target="ChildrenPregnancy" weight="0.24657534062862396"></edge>
+      <edge id="95" source="Other" target="Educational" weight="0.3497537076473236"></edge>
+      <edge id="96" source="Other" target="Alt-RightFar-RightHateSexism" weight="0.22746780514717102"></edge>
+      <edge id="97" source="Other" target="AncestryGenealogy" weight="0.05780346691608429"></edge>
+      <edge id="98" source="Other" target="Crime" weight="0.14767932891845703"></edge>
+      <edge id="99" source="Other" target="MenWomenSexes" weight="0.29357796907424927"></edge>
+      <edge id="100" source="Other" target="Drugs" weight="0.06538461893796921"></edge>
+      <edge id="101" source="Other" target="Politics" weight="0.18972331285476685"></edge>
+      <edge id="102" source="Other" target="RaceCultureCountries" weight="0.19512194395065308"></edge>
+      <edge id="103" source="Other" target="News" weight="0.2510121464729309"></edge>
+      <edge id="104" source="Other" target="HealthDiseases" weight="0.1071428582072258"></edge>
+      <edge id="105" source="Other" target="Religion" weight="0.19819819927215576"></edge>
+      <edge id="106" source="Other" target="ScienceTechnologyFuturism" weight="0.21276596188545227"></edge>
+      <edge id="107" source="Other" target="FunnyComedy" weight="0.2401960790157318"></edge>
+      <edge id="108" source="Other" target="Legal" weight="0.12745098769664764"></edge>
+      <edge id="109" source="Other" target="GeneticsGenomics" weight="0.042307693511247635"></edge>
+      <edge id="110" source="Other" target="Animals" weight="0.0758293867111206"></edge>
+      <edge id="111" source="Other" target="4chan" weight="0.18106995522975922"></edge>
+      <edge id="112" source="Other" target="TVSeriesEntertainment" weight="0.1374407559633255"></edge>
+      <edge id="113" source="Other" target="ChildrenPregnancy" weight="0.1608695685863495"></edge>
+      <edge id="114" source="Drugs" target="Educational" weight="0.0784313753247261"></edge>
+      <edge id="115" source="Drugs" target="Alt-RightFar-RightHateSexism" weight="0.05904059112071991"></edge>
+      <edge id="116" source="Drugs" target="AncestryGenealogy" weight="0.03954802080988884"></edge>
+      <edge id="117" source="Drugs" target="Crime" weight="0.0833333358168602"></edge>
+      <edge id="118" source="Drugs" target="MenWomenSexes" weight="0.08846154063940048"></edge>
+      <edge id="119" source="Drugs" target="Other" weight="0.06538461893796921"></edge>
+      <edge id="120" source="Drugs" target="Politics" weight="0.04137931019067764"></edge>
+      <edge id="121" source="Drugs" target="RaceCultureCountries" weight="0.0535714291036129"></edge>
+      <edge id="122" source="Drugs" target="News" weight="0.07266435772180557"></edge>
+      <edge id="123" source="Drugs" target="HealthDiseases" weight="0.12669683992862701"></edge>
+      <edge id="124" source="Drugs" target="Religion" weight="0.06374502182006836"></edge>
+      <edge id="125" source="Drugs" target="ScienceTechnologyFuturism" weight="0.0833333358168602"></edge>
+      <edge id="126" source="Drugs" target="FunnyComedy" weight="0.05833333358168602"></edge>
+      <edge id="127" source="Drugs" target="Legal" weight="0.09478673338890076"></edge>
+      <edge id="128" source="Drugs" target="GeneticsGenomics" weight="0.04214559495449066"></edge>
+      <edge id="129" source="Drugs" target="Animals" weight="0.06542056053876877"></edge>
+      <edge id="130" source="Drugs" target="4chan" weight="0.04727272689342499"></edge>
+      <edge id="131" source="Drugs" target="TVSeriesEntertainment" weight="0.09049773961305618"></edge>
+      <edge id="132" source="Drugs" target="ChildrenPregnancy" weight="0.08502024412155151"></edge>
+      <edge id="133" source="Politics" target="Educational" weight="0.23045267164707184"></edge>
+      <edge id="134" source="Politics" target="Alt-RightFar-RightHateSexism" weight="0.3700440526008606"></edge>
+      <edge id="135" source="Politics" target="AncestryGenealogy" weight="0.03999999910593033"></edge>
+      <edge id="136" source="Politics" target="Crime" weight="0.08394160866737366"></edge>
+      <edge id="137" source="Politics" target="MenWomenSexes" weight="0.1498127281665802"></edge>
+      <edge id="138" source="Politics" target="Other" weight="0.18972331285476685"></edge>
+      <edge id="139" source="Politics" target="Drugs" weight="0.04137931019067764"></edge>
+      <edge id="140" source="Politics" target="RaceCultureCountries" weight="0.23643410205841064"></edge>
+      <edge id="141" source="Politics" target="News" weight="0.2651515007019043"></edge>
+      <edge id="142" source="Politics" target="HealthDiseases" weight="0.0833333358168602"></edge>
+      <edge id="143" source="Politics" target="Religion" weight="0.1235521212220192"></edge>
+      <edge id="144" source="Politics" target="ScienceTechnologyFuturism" weight="0.13553114235401154"></edge>
+      <edge id="145" source="Politics" target="FunnyComedy" weight="0.12096773833036423"></edge>
+      <edge id="146" source="Politics" target="Legal" weight="0.05371900647878647"></edge>
+      <edge id="147" source="Politics" target="GeneticsGenomics" weight="0.05338078364729881"></edge>
+      <edge id="148" source="Politics" target="Animals" weight="0.054393306374549866"></edge>
+      <edge id="149" source="Politics" target="4chan" weight="0.21875"></edge>
+      <edge id="150" source="Politics" target="TVSeriesEntertainment" weight="0.06854838877916336"></edge>
+      <edge id="151" source="Politics" target="ChildrenPregnancy" weight="0.1018867939710617"></edge>
+      <edge id="152" source="RaceCultureCountries" target="Educational" weight="0.24255318939685822"></edge>
+      <edge id="153" source="RaceCultureCountries" target="Alt-RightFar-RightHateSexism" weight="0.29914531111717224"></edge>
+      <edge id="154" source="RaceCultureCountries" target="AncestryGenealogy" weight="0.025510204955935478"></edge>
+      <edge id="155" source="RaceCultureCountries" target="Crime" weight="0.09022556245326996"></edge>
+      <edge id="156" source="RaceCultureCountries" target="MenWomenSexes" weight="0.15830115973949432"></edge>
+      <edge id="157" source="RaceCultureCountries" target="Other" weight="0.19512194395065308"></edge>
+      <edge id="158" source="RaceCultureCountries" target="Drugs" weight="0.0535714291036129"></edge>
+      <edge id="159" source="RaceCultureCountries" target="Politics" weight="0.23643410205841064"></edge>
+      <edge id="160" source="RaceCultureCountries" target="News" weight="0.2339622676372528"></edge>
+      <edge id="161" source="RaceCultureCountries" target="HealthDiseases" weight="0.09465020895004272"></edge>
+      <edge id="162" source="RaceCultureCountries" target="Religion" weight="0.14516128599643707"></edge>
+      <edge id="163" source="RaceCultureCountries" target="ScienceTechnologyFuturism" weight="0.15209124982357025"></edge>
+      <edge id="164" source="RaceCultureCountries" target="FunnyComedy" weight="0.1061224490404129"></edge>
+      <edge id="165" source="RaceCultureCountries" target="Legal" weight="0.05982905998826027"></edge>
+      <edge id="166" source="RaceCultureCountries" target="GeneticsGenomics" weight="0.05090909078717232"></edge>
+      <edge id="167" source="RaceCultureCountries" target="Animals" weight="0.05603448301553726"></edge>
+      <edge id="168" source="RaceCultureCountries" target="4chan" weight="0.26033058762550354"></edge>
+      <edge id="169" source="RaceCultureCountries" target="TVSeriesEntertainment" weight="0.07949791103601456"></edge>
+      <edge id="170" source="RaceCultureCountries" target="ChildrenPregnancy" weight="0.12204724550247192"></edge>
+      <edge id="171" source="News" target="Educational" weight="0.30084747076034546"></edge>
+      <edge id="172" source="News" target="Alt-RightFar-RightHateSexism" weight="0.25590550899505615"></edge>
+      <edge id="173" source="News" target="AncestryGenealogy" weight="0.03846153989434242"></edge>
+      <edge id="174" source="News" target="Crime" weight="0.14661654829978943"></edge>
+      <edge id="175" source="News" target="MenWomenSexes" weight="0.20229007303714752"></edge>
+      <edge id="176" source="News" target="Other" weight="0.2510121464729309"></edge>
+      <edge id="177" source="News" target="Drugs" weight="0.07266435772180557"></edge>
+      <edge id="178" source="News" target="Politics" weight="0.2651515007019043"></edge>
+      <edge id="179" source="News" target="RaceCultureCountries" weight="0.2339622676372528"></edge>
+      <edge id="180" source="News" target="HealthDiseases" weight="0.11067193746566772"></edge>
+      <edge id="181" source="News" target="Religion" weight="0.15444014966487885"></edge>
+      <edge id="182" source="News" target="ScienceTechnologyFuturism" weight="0.1910112351179123"></edge>
+      <edge id="183" source="News" target="FunnyComedy" weight="0.15789473056793213"></edge>
+      <edge id="184" source="News" target="Legal" weight="0.0912863090634346"></edge>
+      <edge id="185" source="News" target="GeneticsGenomics" weight="0.05190311372280121"></edge>
+      <edge id="186" source="News" target="Animals" weight="0.056910570710897446"></edge>
+      <edge id="187" source="News" target="4chan" weight="0.18518517911434174"></edge>
+      <edge id="188" source="News" target="TVSeriesEntertainment" weight="0.11885245889425278"></edge>
+      <edge id="189" source="News" target="ChildrenPregnancy" weight="0.13636364042758942"></edge>
+      <edge id="190" source="HealthDiseases" target="Educational" weight="0.12844036519527435"></edge>
+      <edge id="191" source="HealthDiseases" target="Alt-RightFar-RightHateSexism" weight="0.10256410390138626"></edge>
+      <edge id="192" source="HealthDiseases" target="AncestryGenealogy" weight="0.06896551698446274"></edge>
+      <edge id="193" source="HealthDiseases" target="Crime" weight="0.13488371670246124"></edge>
+      <edge id="194" source="HealthDiseases" target="MenWomenSexes" weight="0.1651376187801361"></edge>
+      <edge id="195" source="HealthDiseases" target="Other" weight="0.1071428582072258"></edge>
+      <edge id="196" source="HealthDiseases" target="Drugs" weight="0.12669683992862701"></edge>
+      <edge id="197" source="HealthDiseases" target="Politics" weight="0.0833333358168602"></edge>
+      <edge id="198" source="HealthDiseases" target="RaceCultureCountries" weight="0.09465020895004272"></edge>
+      <edge id="199" source="HealthDiseases" target="News" weight="0.11067193746566772"></edge>
+      <edge id="200" source="HealthDiseases" target="Religion" weight="0.10185185074806213"></edge>
+      <edge id="201" source="HealthDiseases" target="ScienceTechnologyFuturism" weight="0.10775861889123917"></edge>
+      <edge id="202" source="HealthDiseases" target="FunnyComedy" weight="0.08695652335882187"></edge>
+      <edge id="203" source="HealthDiseases" target="Legal" weight="0.08021390438079834"></edge>
+      <edge id="204" source="HealthDiseases" target="GeneticsGenomics" weight="0.056521739810705185"></edge>
+      <edge id="205" source="HealthDiseases" target="Animals" weight="0.11797752976417542"></edge>
+      <edge id="206" source="HealthDiseases" target="4chan" weight="0.07468879967927933"></edge>
+      <edge id="207" source="HealthDiseases" target="TVSeriesEntertainment" weight="0.1041666641831398"></edge>
+      <edge id="208" source="HealthDiseases" target="ChildrenPregnancy" weight="0.18316832184791565"></edge>
+      <edge id="209" source="Religion" target="Educational" weight="0.20000000298023224"></edge>
+      <edge id="210" source="Religion" target="Alt-RightFar-RightHateSexism" weight="0.14049586653709412"></edge>
+      <edge id="211" source="Religion" target="AncestryGenealogy" weight="0.0359281450510025"></edge>
+      <edge id="212" source="Religion" target="Crime" weight="0.14410480856895447"></edge>
+      <edge id="213" source="Religion" target="MenWomenSexes" weight="0.19298245012760162"></edge>
+      <edge id="214" source="Religion" target="Other" weight="0.19819819927215576"></edge>
+      <edge id="215" source="Religion" target="Drugs" weight="0.06374502182006836"></edge>
+      <edge id="216" source="Religion" target="Politics" weight="0.1235521212220192"></edge>
+      <edge id="217" source="Religion" target="RaceCultureCountries" weight="0.14516128599643707"></edge>
+      <edge id="218" source="Religion" target="News" weight="0.15444014966487885"></edge>
+      <edge id="219" source="Religion" target="HealthDiseases" weight="0.10185185074806213"></edge>
+      <edge id="220" source="Religion" target="ScienceTechnologyFuturism" weight="0.15062761306762695"></edge>
+      <edge id="221" source="Religion" target="FunnyComedy" weight="0.18536585569381714"></edge>
+      <edge id="222" source="Religion" target="Legal" weight="0.1111111119389534"></edge>
+      <edge id="223" source="Religion" target="GeneticsGenomics" weight="0.048192769289016724"></edge>
+      <edge id="224" source="Religion" target="Animals" weight="0.07425742596387863"></edge>
+      <edge id="225" source="Religion" target="4chan" weight="0.1260162591934204"></edge>
+      <edge id="226" source="Religion" target="TVSeriesEntertainment" weight="0.13300491869449615"></edge>
+      <edge id="227" source="Religion" target="ChildrenPregnancy" weight="0.15246637165546417"></edge>
+      <edge id="228" source="ScienceTechnologyFuturism" target="Educational" weight="0.31018519401550293"></edge>
+      <edge id="229" source="ScienceTechnologyFuturism" target="Alt-RightFar-RightHateSexism" weight="0.175298810005188"></edge>
+      <edge id="230" source="ScienceTechnologyFuturism" target="AncestryGenealogy" weight="0.010526316240429878"></edge>
+      <edge id="231" source="ScienceTechnologyFuturism" target="Crime" weight="0.12851405143737793"></edge>
+      <edge id="232" source="ScienceTechnologyFuturism" target="MenWomenSexes" weight="0.18775510787963867"></edge>
+      <edge id="233" source="ScienceTechnologyFuturism" target="Other" weight="0.21276596188545227"></edge>
+      <edge id="234" source="ScienceTechnologyFuturism" target="Drugs" weight="0.0833333358168602"></edge>
+      <edge id="235" source="ScienceTechnologyFuturism" target="Politics" weight="0.13553114235401154"></edge>
+      <edge id="236" source="ScienceTechnologyFuturism" target="RaceCultureCountries" weight="0.15209124982357025"></edge>
+      <edge id="237" source="ScienceTechnologyFuturism" target="News" weight="0.1910112351179123"></edge>
+      <edge id="238" source="ScienceTechnologyFuturism" target="HealthDiseases" weight="0.10775861889123917"></edge>
+      <edge id="239" source="ScienceTechnologyFuturism" target="Religion" weight="0.15062761306762695"></edge>
+      <edge id="240" source="ScienceTechnologyFuturism" target="FunnyComedy" weight="0.13913042843341827"></edge>
+      <edge id="241" source="ScienceTechnologyFuturism" target="Legal" weight="0.08144796639680862"></edge>
+      <edge id="242" source="ScienceTechnologyFuturism" target="GeneticsGenomics" weight="0.05263157933950424"></edge>
+      <edge id="243" source="ScienceTechnologyFuturism" target="Animals" weight="0.039647575467824936"></edge>
+      <edge id="244" source="ScienceTechnologyFuturism" target="4chan" weight="0.15625"></edge>
+      <edge id="245" source="ScienceTechnologyFuturism" target="TVSeriesEntertainment" weight="0.08260869234800339"></edge>
+      <edge id="246" source="ScienceTechnologyFuturism" target="ChildrenPregnancy" weight="0.14522822201251984"></edge>
+      <edge id="247" source="FunnyComedy" target="Educational" weight="0.18396227061748505"></edge>
+      <edge id="248" source="FunnyComedy" target="Alt-RightFar-RightHateSexism" weight="0.11914893984794617"></edge>
+      <edge id="249" source="FunnyComedy" target="AncestryGenealogy" weight="0.03896103799343109"></edge>
+      <edge id="250" source="FunnyComedy" target="Crime" weight="0.12669683992862701"></edge>
+      <edge id="251" source="FunnyComedy" target="MenWomenSexes" weight="0.2102803736925125"></edge>
+      <edge id="252" source="FunnyComedy" target="Other" weight="0.2401960790157318"></edge>
+      <edge id="253" source="FunnyComedy" target="Drugs" weight="0.05833333358168602"></edge>
+      <edge id="254" source="FunnyComedy" target="Politics" weight="0.12096773833036423"></edge>
+      <edge id="255" source="FunnyComedy" target="RaceCultureCountries" weight="0.1061224490404129"></edge>
+      <edge id="256" source="FunnyComedy" target="News" weight="0.15789473056793213"></edge>
+      <edge id="257" source="FunnyComedy" target="HealthDiseases" weight="0.08695652335882187"></edge>
+      <edge id="258" source="FunnyComedy" target="Religion" weight="0.18536585569381714"></edge>
+      <edge id="259" source="FunnyComedy" target="ScienceTechnologyFuturism" weight="0.13913042843341827"></edge>
+      <edge id="260" source="FunnyComedy" target="Legal" weight="0.11290322244167328"></edge>
+      <edge id="261" source="FunnyComedy" target="GeneticsGenomics" weight="0.06437768042087555"></edge>
+      <edge id="262" source="FunnyComedy" target="Animals" weight="0.0793650820851326"></edge>
+      <edge id="263" source="FunnyComedy" target="4chan" weight="0.10460250824689865"></edge>
+      <edge id="264" source="FunnyComedy" target="TVSeriesEntertainment" weight="0.11855670064687729"></edge>
+      <edge id="265" source="FunnyComedy" target="ChildrenPregnancy" weight="0.12442396581172943"></edge>
+      <edge id="266" source="Legal" target="Educational" weight="0.10679611563682556"></edge>
+      <edge id="267" source="Legal" target="Alt-RightFar-RightHateSexism" weight="0.07623318582773209"></edge>
+      <edge id="268" source="Legal" target="AncestryGenealogy" weight="0.05384615436196327"></edge>
+      <edge id="269" source="Legal" target="Crime" weight="0.12437810748815536"></edge>
+      <edge id="270" source="Legal" target="MenWomenSexes" weight="0.0976744219660759"></edge>
+      <edge id="271" source="Legal" target="Other" weight="0.12745098769664764"></edge>
+      <edge id="272" source="Legal" target="Drugs" weight="0.09478673338890076"></edge>
+      <edge id="273" source="Legal" target="Politics" weight="0.05371900647878647"></edge>
+      <edge id="274" source="Legal" target="RaceCultureCountries" weight="0.05982905998826027"></edge>
+      <edge id="275" source="Legal" target="News" weight="0.0912863090634346"></edge>
+      <edge id="276" source="Legal" target="HealthDiseases" weight="0.08021390438079834"></edge>
+      <edge id="277" source="Legal" target="Religion" weight="0.1111111119389534"></edge>
+      <edge id="278" source="Legal" target="ScienceTechnologyFuturism" weight="0.08144796639680862"></edge>
+      <edge id="279" source="Legal" target="FunnyComedy" weight="0.11290322244167328"></edge>
+      <edge id="280" source="Legal" target="GeneticsGenomics" weight="0.056338027119636536"></edge>
+      <edge id="281" source="Legal" target="Animals" weight="0.05232558026909828"></edge>
+      <edge id="282" source="Legal" target="4chan" weight="0.06637167930603027"></edge>
+      <edge id="283" source="Legal" target="TVSeriesEntertainment" weight="0.18292683362960815"></edge>
+      <edge id="284" source="Legal" target="ChildrenPregnancy" weight="0.12755101919174194"></edge>
+      <edge id="285" source="GeneticsGenomics" target="Educational" weight="0.03861003741621971"></edge>
+      <edge id="286" source="GeneticsGenomics" target="Alt-RightFar-RightHateSexism" weight="0.05243445560336113"></edge>
+      <edge id="287" source="GeneticsGenomics" target="AncestryGenealogy" weight="0.0470588244497776"></edge>
+      <edge id="288" source="GeneticsGenomics" target="Crime" weight="0.0595238097012043"></edge>
+      <edge id="289" source="GeneticsGenomics" target="MenWomenSexes" weight="0.057251907885074615"></edge>
+      <edge id="290" source="GeneticsGenomics" target="Other" weight="0.042307693511247635"></edge>
+      <edge id="291" source="GeneticsGenomics" target="Drugs" weight="0.04214559495449066"></edge>
+      <edge id="292" source="GeneticsGenomics" target="Politics" weight="0.05338078364729881"></edge>
+      <edge id="293" source="GeneticsGenomics" target="RaceCultureCountries" weight="0.05090909078717232"></edge>
+      <edge id="294" source="GeneticsGenomics" target="News" weight="0.05190311372280121"></edge>
+      <edge id="295" source="GeneticsGenomics" target="HealthDiseases" weight="0.056521739810705185"></edge>
+      <edge id="296" source="GeneticsGenomics" target="Religion" weight="0.048192769289016724"></edge>
+      <edge id="297" source="GeneticsGenomics" target="ScienceTechnologyFuturism" weight="0.05263157933950424"></edge>
+      <edge id="298" source="GeneticsGenomics" target="FunnyComedy" weight="0.06437768042087555"></edge>
+      <edge id="299" source="GeneticsGenomics" target="Legal" weight="0.056338027119636536"></edge>
+      <edge id="300" source="GeneticsGenomics" target="Animals" weight="0.05213269963860512"></edge>
+      <edge id="301" source="GeneticsGenomics" target="4chan" weight="0.06415094435214996"></edge>
+      <edge id="302" source="GeneticsGenomics" target="TVSeriesEntertainment" weight="0.06334841996431351"></edge>
+      <edge id="303" source="GeneticsGenomics" target="ChildrenPregnancy" weight="0.0693877562880516"></edge>
+      <edge id="304" source="Animals" target="Educational" weight="0.0714285746216774"></edge>
+      <edge id="305" source="Animals" target="Alt-RightFar-RightHateSexism" weight="0.0533333346247673"></edge>
+      <edge id="306" source="Animals" target="AncestryGenealogy" weight="0.022900763899087906"></edge>
+      <edge id="307" source="Animals" target="Crime" weight="0.09313725680112839"></edge>
+      <edge id="308" source="Animals" target="MenWomenSexes" weight="0.08878504484891891"></edge>
+      <edge id="309" source="Animals" target="Other" weight="0.0758293867111206"></edge>
+      <edge id="310" source="Animals" target="Drugs" weight="0.06542056053876877"></edge>
+      <edge id="311" source="Animals" target="Politics" weight="0.054393306374549866"></edge>
+      <edge id="312" source="Animals" target="RaceCultureCountries" weight="0.05603448301553726"></edge>
+      <edge id="313" source="Animals" target="News" weight="0.056910570710897446"></edge>
+      <edge id="314" source="Animals" target="HealthDiseases" weight="0.11797752976417542"></edge>
+      <edge id="315" source="Animals" target="Religion" weight="0.07425742596387863"></edge>
+      <edge id="316" source="Animals" target="ScienceTechnologyFuturism" weight="0.039647575467824936"></edge>
+      <edge id="317" source="Animals" target="FunnyComedy" weight="0.0793650820851326"></edge>
+      <edge id="318" source="Animals" target="Legal" weight="0.05232558026909828"></edge>
+      <edge id="319" source="Animals" target="GeneticsGenomics" weight="0.05213269963860512"></edge>
+      <edge id="320" source="Animals" target="4chan" weight="0.05309734493494034"></edge>
+      <edge id="321" source="Animals" target="TVSeriesEntertainment" weight="0.03804347664117813"></edge>
+      <edge id="322" source="Animals" target="ChildrenPregnancy" weight="0.10101009905338287"></edge>
+      <edge id="323" source="4chan" target="Educational" weight="0.20762711763381958"></edge>
+      <edge id="324" source="4chan" target="Alt-RightFar-RightHateSexism" weight="0.3378378450870514"></edge>
+      <edge id="325" source="4chan" target="AncestryGenealogy" weight="0.026455026119947433"></edge>
+      <edge id="326" source="4chan" target="Crime" weight="0.09266409277915955"></edge>
+      <edge id="327" source="4chan" target="MenWomenSexes" weight="0.11832061409950256"></edge>
+      <edge id="328" source="4chan" target="Other" weight="0.18106995522975922"></edge>
+      <edge id="329" source="4chan" target="Drugs" weight="0.04727272689342499"></edge>
+      <edge id="330" source="4chan" target="Politics" weight="0.21875"></edge>
+      <edge id="331" source="4chan" target="RaceCultureCountries" weight="0.26033058762550354"></edge>
+      <edge id="332" source="4chan" target="News" weight="0.18518517911434174"></edge>
+      <edge id="333" source="4chan" target="HealthDiseases" weight="0.07468879967927933"></edge>
+      <edge id="334" source="4chan" target="Religion" weight="0.1260162591934204"></edge>
+      <edge id="335" source="4chan" target="ScienceTechnologyFuturism" weight="0.15625"></edge>
+      <edge id="336" source="4chan" target="FunnyComedy" weight="0.10460250824689865"></edge>
+      <edge id="337" source="4chan" target="Legal" weight="0.06637167930603027"></edge>
+      <edge id="338" source="4chan" target="GeneticsGenomics" weight="0.06415094435214996"></edge>
+      <edge id="339" source="4chan" target="Animals" weight="0.05309734493494034"></edge>
+      <edge id="340" source="4chan" target="TVSeriesEntertainment" weight="0.08189655095338821"></edge>
+      <edge id="341" source="4chan" target="ChildrenPregnancy" weight="0.1031746044754982"></edge>
+      <edge id="342" source="TVSeriesEntertainment" target="Educational" weight="0.12264151126146317"></edge>
+      <edge id="343" source="TVSeriesEntertainment" target="Alt-RightFar-RightHateSexism" weight="0.09649122506380081"></edge>
+      <edge id="344" source="TVSeriesEntertainment" target="AncestryGenealogy" weight="0.08888889104127884"></edge>
+      <edge id="345" source="TVSeriesEntertainment" target="Crime" weight="0.1625615805387497"></edge>
+      <edge id="346" source="TVSeriesEntertainment" target="MenWomenSexes" weight="0.14953270554542542"></edge>
+      <edge id="347" source="TVSeriesEntertainment" target="Other" weight="0.1374407559633255"></edge>
+      <edge id="348" source="TVSeriesEntertainment" target="Drugs" weight="0.09049773961305618"></edge>
+      <edge id="349" source="TVSeriesEntertainment" target="Politics" weight="0.06854838877916336"></edge>
+      <edge id="350" source="TVSeriesEntertainment" target="RaceCultureCountries" weight="0.07949791103601456"></edge>
+      <edge id="351" source="TVSeriesEntertainment" target="News" weight="0.11885245889425278"></edge>
+      <edge id="352" source="TVSeriesEntertainment" target="HealthDiseases" weight="0.1041666641831398"></edge>
+      <edge id="353" source="TVSeriesEntertainment" target="Religion" weight="0.13300491869449615"></edge>
+      <edge id="354" source="TVSeriesEntertainment" target="ScienceTechnologyFuturism" weight="0.08260869234800339"></edge>
+      <edge id="355" source="TVSeriesEntertainment" target="FunnyComedy" weight="0.11855670064687729"></edge>
+      <edge id="356" source="TVSeriesEntertainment" target="Legal" weight="0.18292683362960815"></edge>
+      <edge id="357" source="TVSeriesEntertainment" target="GeneticsGenomics" weight="0.06334841996431351"></edge>
+      <edge id="358" source="TVSeriesEntertainment" target="Animals" weight="0.03804347664117813"></edge>
+      <edge id="359" source="TVSeriesEntertainment" target="4chan" weight="0.08189655095338821"></edge>
+      <edge id="360" source="TVSeriesEntertainment" target="ChildrenPregnancy" weight="0.12135922163724899"></edge>
+      <edge id="361" source="ChildrenPregnancy" target="Educational" weight="0.16740088164806366"></edge>
+      <edge id="362" source="ChildrenPregnancy" target="Alt-RightFar-RightHateSexism" weight="0.1352459043264389"></edge>
+      <edge id="363" source="ChildrenPregnancy" target="AncestryGenealogy" weight="0.06748466193675995"></edge>
+      <edge id="364" source="ChildrenPregnancy" target="Crime" weight="0.18468467891216278"></edge>
+      <edge id="365" source="ChildrenPregnancy" target="MenWomenSexes" weight="0.24657534062862396"></edge>
+      <edge id="366" source="ChildrenPregnancy" target="Other" weight="0.1608695685863495"></edge>
+      <edge id="367" source="ChildrenPregnancy" target="Drugs" weight="0.08502024412155151"></edge>
+      <edge id="368" source="ChildrenPregnancy" target="Politics" weight="0.1018867939710617"></edge>
+      <edge id="369" source="ChildrenPregnancy" target="RaceCultureCountries" weight="0.12204724550247192"></edge>
+      <edge id="370" source="ChildrenPregnancy" target="News" weight="0.13636364042758942"></edge>
+      <edge id="371" source="ChildrenPregnancy" target="HealthDiseases" weight="0.18316832184791565"></edge>
+      <edge id="372" source="ChildrenPregnancy" target="Religion" weight="0.15246637165546417"></edge>
+      <edge id="373" source="ChildrenPregnancy" target="ScienceTechnologyFuturism" weight="0.14522822201251984"></edge>
+      <edge id="374" source="ChildrenPregnancy" target="FunnyComedy" weight="0.12442396581172943"></edge>
+      <edge id="375" source="ChildrenPregnancy" target="Legal" weight="0.12755101919174194"></edge>
+      <edge id="376" source="ChildrenPregnancy" target="GeneticsGenomics" weight="0.0693877562880516"></edge>
+      <edge id="377" source="ChildrenPregnancy" target="Animals" weight="0.10101009905338287"></edge>
+      <edge id="378" source="ChildrenPregnancy" target="4chan" weight="0.1031746044754982"></edge>
+      <edge id="379" source="ChildrenPregnancy" target="TVSeriesEntertainment" weight="0.12135922163724899"></edge>
+    </edges>
+  </graph>
+</gexf>
